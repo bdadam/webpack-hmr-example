@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bdadam/jogitanacs.info.git"
+    "url": "git+https://github.com/bdadam/webpack-hmr-example.git"
   },
   "homepage": "https://www.jogitanacs.info/",
   "dependencies": {
