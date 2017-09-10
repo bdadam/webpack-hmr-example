@@ -1,0 +1,1 @@
+docker-compose exec node yarn $1 $2 

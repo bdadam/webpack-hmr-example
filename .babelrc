@@ -1,0 +1,55 @@
+{
+    "plugins": [
+        ["transform-react-jsx", { "pragma": "h", "useBuiltIns": true }],        
+    ],
+    "env": {
+        // "test": {
+        //     "sourceMaps": "inline",
+        //     "plugins": [
+        //         "transform-es2015-modules-commonjs",
+        //         ["transform-react-jsx", { "pragma": "h", "useBuiltIns": true }],
+        //         ["transform-require-ignore", { "extensions": [".scss", ".sass", ".css"] }]                
+        //    ]
+        // },
+        "node": {
+            "sourceMaps": false,
+            "retainLines": true,
+            "presets": [
+                ["env", { "targets": { "node": true }, "useBuiltIns": true, "loose": true }]
+            ],
+            "plugins": [
+                // "transform-es2015-modules-commonjs",
+                // ["transform-react-jsx", { "pragma": "h", "useBuiltIns": true }],
+                ["transform-require-ignore", { "extensions": [".scss", ".sass", ".css"] }]
+            ]
+        },
+        "browser": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "modules": false,
+                        "targets": {
+                            "browsers": [
+                                "last 2 Chrome versions",
+                                "last 2 Firefox versions",
+                                "last 2 FirefoxAndroid versions",
+                                "last 2 Safari versions",
+                                "last 2 Edge versions",
+                                "last 2 iOS versions",
+                                "ie >= 11",
+                                "Android >= 5"
+                            ]
+                        },
+                        "useBuiltIns": true,
+                        "loose": true
+                    }
+                ]
+            ],
+            "plugins": [
+                // ["transform-react-jsx", { "pragma": "h", "useBuiltIns": true }],
+                "lodash"
+            ]            
+       }
+    }
+}
