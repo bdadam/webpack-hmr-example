@@ -5,8 +5,8 @@
 1. Clone this repository
 1. `docker-compose up`
 1. Open browser and navigate to http://localhost:3000/
-1. Change in client side code should trigger a reload automatically (usually hot module replacement only, not full page reload)
-1. Change in server side code will only be visible after a manual full page reload
+1. Change in client side code will automatically trigger hot module replacement (usually not full page reload just replacement)
+1. Change in server side code will be visible after a manual browser reload
 
 
 ## Open issues
