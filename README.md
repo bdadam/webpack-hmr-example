@@ -12,3 +12,6 @@
 ## Open issues
 1. Change in scss does not trigger hot module replacement ie. styles are not applied without manually reloading the page
 1. Is it working on macOS with docker-compose? Do file changes trigger file change events inside running container?
+
+## Credits
+- Idea taken from: https://github.com/glenjamin/ultimate-hot-reloading-example
