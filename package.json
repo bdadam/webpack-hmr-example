@@ -1,6 +1,6 @@
 {
-  "name": "jogitanacs.info",
-  "version": "2.0.0",
+  "name": "webpack-hmr-example",
+  "version": "1.0.0",
   "private": true,
   "main": "index.js",
   "scripts": {
