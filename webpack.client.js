@@ -43,6 +43,7 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: extractScss.extract({
+                    fallback: 'style-loader',
                     use: [
                         {
                             loader: 'css-loader',
